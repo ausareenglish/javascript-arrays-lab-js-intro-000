@@ -32,8 +32,8 @@ function appendKitten() {
 }
 
 function prependKitten() {
-  varnewKittens2 = {..."Broo"
+  varnewKittens2 = ["Garfield", ...kittens];
   
   
 }
-}
+
