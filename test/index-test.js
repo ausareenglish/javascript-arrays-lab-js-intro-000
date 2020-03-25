@@ -5,7 +5,7 @@ describe('Arrays', function() {
     })
   })
 
-  describe('destructivelyAppendKitten(name)', function() {
+  describedestructivelyAppendKitten(name)('', function() {
     it('appends a kitten to the end of the kittens array', function() {
       window.kittens = ['Milo', 'Otis', 'Garfield'];
       destructivelyAppendKitten('Ralph')
